@@ -1,0 +1,4 @@
+\documentclass{ams}
+\begin{hello}
+\end{hello}
+\begin{test}

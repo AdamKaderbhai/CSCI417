@@ -1,0 +1,32 @@
+\documentclass{ams}
+\begin{document}
+\begin{prob}
+\begin{lstlisting}
+can_construct("abc", "abcc") #true
+can_construct("abc", "abbea") # False
+\end{lstlisting}
+What is the time complexity of your algorithm?
+\end{prob}
+
+\begin{prob}
+\begin{enumerate}
+\item Given a list alist and a specified target value, write a function named \texttt{two\_sum(alist, target)} that returns True if there exists a pair of elements (with different indices) in the list whose sum equals the target? For example
+\begin{lstlisting}
+two_sum([2, 2, 3, 5, 8], 8)) # True
+\end{lstlisting}
+What is the time complexity of your algorithm?
+\item Can we do better if we know that the list is sorted?
+\end{enumerate}
+\end{prob}
+\begin{prob}
+Given a list of numbers. Write a function named \texttt{non\_duplicate(alist)} that returns a new list of elements that appears exactly one in the list.For example
+\begin{lstlisting}
+non_duplicate([1, 2, 1, 3]) #[2,3]
+non_duplicate([1,2, 1, 2]) # []
+\end{lstlisting}
+ What is the time complexity of your algorithm?
+\end{prob}
+\end{document}
+
+
+
